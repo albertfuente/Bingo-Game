@@ -1,0 +1,74 @@
+*{
+  background-color: black;
+}
+
+h1, h2{
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+
+button{
+  margin:3px;
+  background-color: white;
+  padding: 5px;
+  font-family: 'Oswald', sans-serif;
+  color: red;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+footer{
+  color: white;
+  text-align: center;
+}
+
+.grid-container{
+  width: 50%;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: grey;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+}
+.grid-item{
+  background-color: yellow;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 2em;
+}
+
+.btn{
+  width: 30%;
+  margin:10px auto;
+  display:grid;
+  grid-template-columns: 1fr  ;
+  background-color: grey;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+}
+.btnReplay{
+  width: 30%;
+  margin:10px auto;
+  display:grid;
+  grid-template-columns: 1fr  ;
+  background-color: grey;
+  font-family: 'Oswald', sans-serif;
+  padding: 5px;
+}
+
+.green-glow{
+  background: linear-gradient(to right,#9BFB88 10%,#37772E 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border:4px solid green;
+  box-shadow: 0 0 10px #31b43a;
+}
+
+.red-glow{
+  color:red;
+  box-shadow: 0 0 10px #fc121b;
+}
